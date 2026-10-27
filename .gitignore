@@ -1,0 +1,12 @@
+# Challenge data — never committed (download separately, see README.md)
+challenge_data/
+data-v1.tar.gz
+
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/

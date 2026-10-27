@@ -1,0 +1,55 @@
+{
+  "n_vm": 10000,
+  "n_timestamps": 134,
+  "cadence_seconds": 300,
+  "timestamp_range": [
+    0,
+    39900
+  ],
+  "duplicate_vm_timestamp_pairs": 0,
+  "missing_values": {
+    "timestamp": 0,
+    "vm_id": 0,
+    "min_cpu": 0,
+    "max_cpu": 0,
+    "avg_cpu": 0
+  },
+  "gaps_in_grid": [],
+  "active_vm_count_unique": [
+    10000
+  ],
+  "cpu_mean": 9.388100729421827,
+  "cpu_std": 0.19498686475967825,
+  "cpu_min": 8.983613452960672,
+  "cpu_max": 9.912175173984913,
+  "cpu_p50": 9.367251632664425,
+  "cpu_p90": 9.66079649837084,
+  "cpu_p95": 9.807151641476139,
+  "cpu_autocorr_lag1": 0.6812730330427034,
+  "cpu_autocorr_lag12": 0.4370024933747656,
+  "mean_abs_step_change": 0.1191931285221614,
+  "peak_timestamp_idx": 55,
+  "peak_value": 9.912175173984913,
+  "trough_timestamp_idx": 111,
+  "trough_value": 8.983613452960672,
+  "per_vm_mean_cpu_median": 5.480792662056373,
+  "per_vm_mean_cpu_p90": 19.521895243120426,
+  "top_10pct_vm_share_of_total_cpu": 0.43560888721185886,
+  "vms_with_mean_cpu_below_1pct": 582,
+  "vms_with_mean_cpu_above_50pct": 221,
+  "segment_mean_cpu": {
+    "Delay-insensitive": 8.235838916335327,
+    "Interactive": 11.492566915118212,
+    "Unknown": 10.23319404202409
+  },
+  "segment_vm_counts": {
+    "Delay-insensitive": 6180,
+    "Interactive": 3091,
+    "Unknown": 729
+  },
+  "segment_corr_with_overall": {
+    "Delay-insensitive": 0.9097523663809345,
+    "Interactive": 0.7661837727779399,
+    "Unknown": 0.36612357905313364
+  }
+}
